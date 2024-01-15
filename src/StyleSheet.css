@@ -1,0 +1,159 @@
+.header {
+  width: 100%;
+}
+
+.users-area {
+  width: 68%;
+  float: left;
+}
+
+.sidebar-area {
+  width: 31%;
+  min-height: 100vh;
+  float: right;
+  margin-left: 1%;
+  background-color: lightgrey;
+  padding: 50px;
+}
+
+.grid-container {
+  background-color: white;
+}
+
+.grid-container > div {
+  padding: 20px 0;
+  font-size: 20px;
+}
+
+.grid-users-page {
+  width: 100%;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+}
+
+input[type=text]:focus {
+  background-color: lightblue;
+}
+
+label {
+  display: inline-block;
+  padding-top: 20px;
+}
+
+.headerUsers {
+  background-color: lightblue;
+  padding: 50px;
+  display: flex;
+  align-items: stretch;
+} 
+
+.dAddUser {
+  flex-grow: 4;
+  background-color: salmon;
+  max-height: 49px;
+  margin: 8px 0;
+}
+
+.dSearch {
+  min-width: 70%;
+  flex-grow: 6;
+  margin-right: 100px;
+}
+
+.search {
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  padding: 12px 20px 12px 40px;
+}
+
+.button {
+  width: 48%;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
+  outline: none;
+}
+
+.button:hover {
+  background-color: #e7e7e7;
+}
+
+.buttonMargin {
+  margin-right: 4%;
+}
+
+.buttonColor {
+  background-color: salmon;
+}
+
+.users-container {
+  background-color: #ffffff;
+  padding: 50px;
+}
+
+.user {
+  width: 31%;
+  float: left;
+  margin-left: 2%;
+  margin-bottom: 2%;
+  padding: 30px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+.txtOtherData:hover {
+  color: lightblue;
+}
+
+.header h1 {
+  font-family: 'Pacifico', cursive;
+  margin-left: 50px;
+}
+
+.titleH3 {
+  display: inline-block;
+  background-color: white;
+  color: lightblue;
+  padding: 7px;
+  width: 60%;
+  margin-right: 4%;
+  border-radius: 4px;
+}
+
+.buttonAddT_P {
+  display: inline-block;
+  background-color: lightblue;
+  width: 36%;
+  padding: 5px;
+}
+
+.userDetails {
+  font-weight: bolder;
+}
+
+.post_task {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+
+
+
+  
